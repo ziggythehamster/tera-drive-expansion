@@ -55,14 +55,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "duplicate_footprints|80787479|145868222|a5b292d6-2993-4524-87db-e8984de3a4c3|722138d3-9625-4934-a6df-c8332ec06320",
-        "extra_footprint|101703218|145868222|722138d3-9625-4934-a6df-c8332ec06320|00000000-0000-0000-0000-000000000000",
-        "extra_footprint|80787479|145868222|a5b292d6-2993-4524-87db-e8984de3a4c3|00000000-0000-0000-0000-000000000000",
-        "silk_overlap|94350000|142494000|7f4479f7-11c0-45c9-b5e2-0167a9086444|51b2f0b1-b2b7-4635-901b-87ad4e55e03c",
-        "silk_overlap|94614798|80518000|060606ba-3570-4386-92c2-47f050ce21fd|208f07f7-6687-46a0-bb00-f264a6149118",
-        "silk_overlap|97408059|68988413|4ae67608-a2fd-4a39-b2fb-d66c8e24e5a5|0313860c-1b24-4e1c-ad89-230727bdad4f"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -456,7 +449,12 @@
       "version": 3
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "GND": "Power",
+      "SL2": "Audio",
+      "SR2": "Audio",
+      "VCC": "Power"
+    },
     "netclass_patterns": [
       {
         "netclass": "Power",
